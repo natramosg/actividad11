@@ -1,0 +1,28 @@
+circle {
+    fill: #efc298; 
+    stroke: #000000; 
+    stroke-width: 5px; 
+}
+
+
+circle:nth-of-type(2), circle:nth-of-type(3) {
+    fill: #000; 
+    stroke: none; 
+}
+
+
+circle:nth-of-type(2):hover, circle:nth-of-type(3):hover {
+    fill: rgb(31, 31, 48); 
+}
+
+ellipse {
+    fill: #db7979; 
+    stroke: #000; 
+    stroke-width: 2px; 
+}
+
+line {
+    stroke: #000; 
+    stroke-width: 5px; 
+}
+
